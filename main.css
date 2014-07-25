@@ -1,5 +1,9 @@
+body {
+	font-family: "museo-sans", sans-serif;
+}
+
 h1 {
-  color: red;
+  color: #fcfaf2;
 }
 
 
@@ -12,11 +16,22 @@ h1 {
 
 .hero h2 {
 	color: #ff6d2c;
+  text-align:center;
 }
 
 .hero h3 {
 	color: #6e69c9;
 }
+
+.hero-image {
+  display: block;
+  width: 600px;
+  height: 400px;
+  margin: 0 auto;
+  background: url(logo.svg) no-repeat;
+  background-size: cover;
+}
+
 
 .lineup {
 	color: #ffdcc2;
@@ -24,11 +39,11 @@ h1 {
 }
 
 .lineup .speaker {
-	weight: 700;
+	font-weight: 700;
 }
 
 .lineup .games {
-	weight: 100;
+	font-weight: 100;
 }
 
 .signup {
