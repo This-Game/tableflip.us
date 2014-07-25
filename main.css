@@ -1,0 +1,42 @@
+h1 {
+  color: red;
+}
+
+
+.nav {
+}
+
+.hero {
+	background-color: #fcfaf2;
+}
+
+.hero h2 {
+	color: #ff6d2c;
+}
+
+.hero h3 {
+	color: #6e69c9;
+}
+
+.lineup {
+	color: #ffdcc2;
+	background-color: #ff6d2c;
+}
+
+.lineup .speaker {
+	weight: 700;
+}
+
+.lineup .games {
+	weight: 100;
+}
+
+.signup {
+	color: #fcfaf2;
+	background-color: #ffcb39;
+}
+
+.footer {
+	color: #fcfaf2;
+	background-color: #2896a5;
+}
