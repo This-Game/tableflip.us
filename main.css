@@ -1,5 +1,6 @@
 body {
 	font-family: "museo-sans", sans-serif;
+	letter-spacing: 0.5px;
 }
 
 h1 {
@@ -57,9 +58,10 @@ h1 {
 	padding: 15px;
 }
 
-.lineup .speaker {
+.lineup .speaker a {
 	font-weight: 700;
 	font-size: 28px;
+	color: white;
 }
 
 .lineup .games {
