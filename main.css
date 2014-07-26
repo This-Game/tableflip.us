@@ -3,15 +3,28 @@ body {
 }
 
 h1 {
-  color: #fcfaf2;
+	font-size: 4px;
+	/*margin-top: -1000px;*/
+	opacity: 0.01;
 }
 
 
-.nav {
+.nav span {
+	display: inline-block;
+	width: 20%;
+	padding: 0;
+	margin: 0;
+	height: 20px;
 }
+
+.nav .red { background-color: #ff6d2c; }
+.nav .yellow { background-color: #ffcb39; }
+.nav .green { background-color: #2896a5; }
+.nav .blue { background-color: #273b68; }
+.nav .purple { background-color: #6e69c9; }
 
 .hero {
-	background-color: #fcfaf2;
+	background: url('/background.svg') repeat #fcfaf2;
 }
 
 .hero h2 {
@@ -21,6 +34,7 @@ h1 {
 
 .hero h3 {
 	color: #6e69c9;
+	text-align: center;
 }
 
 
@@ -35,19 +49,42 @@ h1 {
 .lineup {
 	color: #ffdcc2;
 	background-color: #ff6d2c;
+	padding: 20px 0;
+}
+
+.lineup .speaker-detail {
+	text-align: center;
+	padding: 15px;
 }
 
 .lineup .speaker {
 	font-weight: 700;
+	font-size: 28px;
 }
 
 .lineup .games {
 	font-weight: 100;
+	font-size: 18px;
 }
 
 .signup {
 	color: #fcfaf2;
 	background-color: #ffcb39;
+}
+
+.signup div.email-signup.form-group {
+	width: 20%;
+}
+
+.signup-text {
+	color: white;
+	font-size: 24px;
+	font-weight: 100;
+	text-align: center;
+}
+
+.signup input {
+	font-size: 24px;
 }
 
 .footer {
