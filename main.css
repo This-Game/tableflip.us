@@ -1,6 +1,7 @@
 @media only screen and (max-width: 767px) and (orientation: portrait) {
     /* portrait phones */
 		.input-group .form-control {
+			width: 80%;
 			font-size: 14px;
 			padding: 8px;
 		}
@@ -8,6 +9,10 @@
 		.signup input {
 			font-size: 14px;
 			border: 0;
+		}
+
+		.hero h2 span {
+			display: block;
 		}
 }
 
@@ -35,11 +40,11 @@ h1 {
 	height: 20px;
 }
 
-.nav .red { background-color: #ff6d2c; }
-.nav .yellow { background-color: #ffcb39; }
-.nav .green { background-color: #2896a5; }
-.nav .blue { background-color: #273b68; }
-.nav .purple { background-color: #6e69c9; }
+.red { background-color: #ff6d2c; }
+.yellow { background-color: #ffcb39; }
+.green { background-color: #2896a5; }
+.blue { background-color: #273b68; color: #9ab5d6; }
+.purple { background-color: #6e69c9; }
 
 .hero {
 	background: url('/background.svg') repeat #fcfaf2;
@@ -59,7 +64,6 @@ h1 {
 	text-align: center;
 }
 
-
 .hero img {
   display: block;
   /*width: 50%;*/
@@ -67,10 +71,15 @@ h1 {
   margin: 0 auto;
 }
 
+.blurb {
+	padding: 40px 0;
+	font-size: 18px;
+	font-weight: 200;
+	text-align: center;
+}
 
 .lineup {
 	color: #ffdcc2;
-	background-color: #ff6d2c;
 	padding: 20px 0;
 }
 
@@ -92,12 +101,21 @@ h1 {
 
 .signup {
 	color: #fcfaf2;
-	background-color: #ffcb39;
 	padding: 25px;
 }
 
 .signup div.email-signup.form-group {
 	width: 20%;
+}
+
+.email-signup-form {
+	text-align: center;
+	margin: 0;
+}
+
+.email-signup-form button {
+	height: 71px;
+	margin-left: -5px;
 }
 
 .signup-text {
@@ -108,25 +126,28 @@ h1 {
 	padding-bottom: 25px;
 }
 
-.signup input {
+.signup input[type=email] {
 	font-size: 22px;
 	font-weight: 700;
 	padding: 35px;
 	border: 0;
+	display: inline;
 }
 
-.signup .input-group-addon {
+.new_email_signup{
 	font-size: 22px;
 	font-weight: 700;
-	padding: 0 35px;
+	padding: 0 25px;
+	height: 100%;
 	color: #ffffff;
+	cursor: hand;
 	background-color: #273b68;
 	border: 0;
+	display: inline;
 }
 
 .footer {
 	color: #fcfaf2;
-	background-color: #2896a5;
 	text-align: center;
 	padding: 25px;
 }
