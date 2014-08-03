@@ -96,14 +96,22 @@ h1 {
 	text-align: center;
 }
 
+.speaker-header {
+	color: #ffdcc2;
+	font-weight: 700;
+	font-size: 21px;
+	text-align: center;
+	padding: 15px 0 0;
+}
+
 .lineup {
 	color: #ffdcc2;
-	/*padding: 20px 0;*/
+	padding: 5px 0 0;
 }
 
 .lineup .speaker-detail {
 	text-align: center;
-	/*padding: 16px;*/
+	padding: 16px;
 }
 
 .lineup .speaker a {
