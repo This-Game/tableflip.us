@@ -107,6 +107,14 @@ h1 {
 	padding: 15px 0 0;
 }
 
+.speaker-header-text {
+	color: #ffdcc2;
+	font-size: 28px;
+	font-weight: 100;
+	text-align: center;
+	padding-bottom: 10px;
+}
+
 .lineup {
 	color: #ffdcc2;
 	padding: 0 0 10px;
@@ -179,6 +187,7 @@ h1 {
 }
 
 .footer {
+	font-size: 14px;
 	color: #fcfaf2;
 	text-align: center;
 	padding: 25px;
