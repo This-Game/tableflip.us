@@ -183,3 +183,7 @@ h1 {
 	text-align: center;
 	padding: 25px;
 }
+
+.footer a {
+	color: #fcfaf2;
+}
